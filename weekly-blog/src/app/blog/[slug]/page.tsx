@@ -67,46 +67,57 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
           <p className="text-lg font-medium text-[#3c3c3c] mb-6">{post.excerpt}</p>
 
           <div className="space-y-6">
-            <p>{post.content.slice(0, 300)}</p>
-
-            <div className="flex justify-center gap-6 my-10">
-              <div className="polaroid rotate-1">
-                <Image
-                  src={post.images[0] || "/placeholder.svg"}
-                  alt="Blog image 1"
-                  width={400}
-                  height={300}
-                  className="w-full object-cover"
-                />
-                <p className="text-center text-sm mt-2 text-[#6b6b6b]">{post.imageCaptions[0]}</p>
-              </div>
-            </div>
-
-            <p>{post.content.slice(300, 600)}</p>
-
-            <div className="flex justify-center gap-6 my-10">
-              <div className="polaroid-reverse">
-                <Image
-                  src={post.images[1] || "/placeholder.svg"}
-                  alt="Blog image 2"
-                  width={400}
-                  height={300}
-                  className="w-full object-cover"
-                />
-                <p className="text-center text-sm mt-2 text-[#6b6b6b]">{post.imageCaptions[1]}</p>
-              </div>
-            </div>
-
-            <p>{post.content.slice(600)}</p>
+            {/* Render paragraphs and images at markers */}
+            {(() => {
+              // Split content by [IMAGE_n] markers
+              const parts = post.content.split(/(\[IMAGE_\d+\])/g);
+              const images = post.images || [];
+              const captions = post.imageCaptions || [];
+              const elements: React.ReactNode[] = [];
+              parts.forEach((part, idx) => {
+                const imageMatch = part.match(/^\[IMAGE_(\d+)\]$/);
+                if (imageMatch) {
+                  const imgNum = parseInt(imageMatch[1], 10) - 1;
+                  if (images[imgNum]) {
+                    elements.push(
+                      <div className={imgNum % 2 === 0 ? "flex justify-center gap-6 my-10" : "flex justify-center gap-6 my-10"} key={`img-${imgNum}`}>
+                        <div className={imgNum % 2 === 0 ? "polaroid rotate-1" : "polaroid-reverse"}>
+                          <Image
+                            src={images[imgNum] || "/placeholder.svg"}
+                            alt={`Blog image ${imgNum + 1}`}
+                            width={400}
+                            height={300}
+                            className="w-full object-cover"
+                          />
+                          <p className="text-center text-sm mt-2 text-[#6b6b6b]">{captions[imgNum]}</p>
+                        </div>
+                      </div>
+                    );
+                  }
+                } else {
+                  // Split by double newlines for paragraphs
+                  part.split(/\n\s*\n/).forEach((para, pIdx) => {
+                    if (para.trim()) {
+                      elements.push(<p key={`para-${idx}-${pIdx}`}>{para.trim()}</p>);
+                    }
+                  });
+                }
+              });
+              return elements;
+            })()}
           </div>
         </div>
 
+        {/*
+          To insert images at specific points in your content, add markers like [IMAGE_1], [IMAGE_2], etc. in your blog post content string.
+          Images and captions will be inserted at those points.
+        */}
         {/* Related Posts */}
         <div className="mt-16 pt-8 border-t border-[#e5d9d0]">
           <h3 className="font-serif text-2xl text-center mb-8">You Might Also Enjoy</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {blogPosts
-              .filter((relatedPost: BlogPost) => relatedPost.slug !== post.slug)
+              .filter((relatedPost: BlogPost) => relatedPost.slug !== post!.slug)
               .slice(0, 3)
               .map((relatedPost: BlogPost) => (
                 <Link key={relatedPost.slug} href={`/blog/${relatedPost.slug}`} className="group">
