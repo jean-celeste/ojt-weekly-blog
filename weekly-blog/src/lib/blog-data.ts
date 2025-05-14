@@ -1,0 +1,88 @@
+import type { BlogPost } from "./types"
+
+export const blogPosts: BlogPost[] = [
+  {
+    slug: "week-1-coastal-adventures",
+    title: "Where to Travel in 2025 Based on Your Zodiac",
+    date: "2025-01-05",
+    category: "Travel",
+    excerpt: "Discover the perfect destinations for your zodiac sign in the coming year.",
+    content:
+      "As we look ahead to 2025, the stars are aligning to guide your travel plans. Whether you're a fiery Aries seeking adventure or a grounded Taurus looking for luxury, your zodiac sign can offer insights into the destinations that will resonate most with your personality and desires. This week, I've researched the perfect travel spots for each sign, considering planetary movements and elemental affinities. From the rugged landscapes of Patagonia for adventurous Sagittarius to the artistic streets of Paris for aesthetic Libra, there's a perfect destination waiting for you. The cosmic energies of 2025 are particularly favorable for water signs to explore coastal regions, while earth signs might find profound connections in mountainous areas. Fire signs will thrive in vibrant, energetic cities, and air signs should seek places with historical and intellectual significance. Remember that these suggestions are just starting points – the universe encourages you to follow your intuition when planning your travels. What matters most is that you embark on journeys that feed your soul and expand your horizons in ways that align with your true nature.",
+    coverImage: "/placeholder.svg?height=600&width=800",
+    images: ["/placeholder.svg?height=500&width=700", "/placeholder.svg?height=500&width=700"],
+    imageCaptions: [
+      "Sunrise view from my coastal retreat - perfect for water signs",
+      "City lights of Barcelona - ideal for fire signs seeking energy",
+    ],
+  },
+  {
+    slug: "week-2-blogging-journey",
+    title: "The Ultimate Guide to Starting a Successful Travel Blog",
+    date: "2025-01-12",
+    category: "Blogging",
+    excerpt: "Everything you need to know to launch your own travel blog and build an audience.",
+    content:
+      "Starting a travel blog might seem daunting at first, but with the right approach, it can become one of the most rewarding creative outlets. This week, I'm sharing everything I've learned over years of blogging about my adventures around the world. The key to success lies in finding your unique voice and perspective – there are thousands of travel blogs out there, but none with your specific experiences and viewpoint. Begin by defining your niche: will you focus on budget travel, luxury experiences, solo female travel, or perhaps family adventures? Having a clear focus helps attract a dedicated audience who resonates with your content. Next, invest time in learning the technical aspects of blogging, from choosing the right platform to understanding basic SEO principles. While the creative side is important, the technical foundation will ensure your beautiful content actually reaches readers. Don't underestimate the power of high-quality photography – in the travel niche, stunning visuals can be just as important as well-written content. Finally, remember that building a successful blog takes time and consistency. The most successful bloggers are those who continue creating valuable content even when immediate results aren't visible.",
+    coverImage: "/placeholder.svg?height=600&width=800",
+    images: ["/placeholder.svg?height=500&width=700", "/placeholder.svg?height=500&width=700"],
+    imageCaptions: [
+      "My workspace while writing my first blog posts",
+      "Planning content calendar for the upcoming month",
+    ],
+  },
+  {
+    slug: "week-3-bucket-list",
+    title: "Travel Bucket List for 2025",
+    date: "2025-01-19",
+    category: "Travel",
+    excerpt: "The top destinations and experiences I'm planning to check off my bucket list this year.",
+    content:
+      "As the new year unfolds, I've been reflecting on the places and experiences that are calling to my soul. Creating a travel bucket list isn't just about ticking off famous landmarks – it's about identifying the experiences that will truly enrich your life and expand your understanding of the world. This week, I'm sharing my personal bucket list for 2025, along with the thoughtful process behind each choice. Topping my list is witnessing the Northern Lights in Iceland, a natural phenomenon that has captivated my imagination since childhood. The ephemeral dance of colors across the Arctic sky represents nature's most spectacular light show, and I plan to experience it from a glass-roofed cabin in the wilderness. Next is immersing myself in the ancient traditions of Kyoto during cherry blossom season, when the city transforms into a pink wonderland and centuries-old customs come alive. I'm also drawn to the untamed wilderness of Patagonia, where I hope to complete the challenging Torres del Paine W Trek, pushing my physical limits while surrounded by some of the most dramatic landscapes on Earth. These destinations aren't random choices – each represents a different facet of what travel means to me: natural wonder, cultural immersion, and personal challenge.",
+    coverImage: "/placeholder.svg?height=600&width=800",
+    images: ["/placeholder.svg?height=500&width=700", "/placeholder.svg?height=500&width=700"],
+    imageCaptions: ["My vision board for 2025 travel goals", "Map marking all the destinations on my bucket list"],
+  },
+  {
+    slug: "week-4-packing-essentials",
+    title: "Minimalist Packing: What I Actually Use On Every Trip",
+    date: "2025-01-26",
+    category: "Travel Tips",
+    excerpt: "The essential items that make it into my suitcase every time, no matter the destination.",
+    content:
+      "After years of overpacking and lugging heavy suitcases through airports and train stations, I've finally mastered the art of minimalist packing. This week, I'm sharing the core items that earn their place in my luggage for every single trip, regardless of destination or duration. The foundation of my travel wardrobe is a capsule collection of mix-and-match pieces in neutral colors, allowing for maximum outfit combinations with minimal items. I've found that three tops, two bottoms, one dress, and one light jacket can create enough outfits for a week when chosen thoughtfully. Beyond clothing, I've identified the true essentials that enhance every travel experience: a compact camera that captures better memories than my phone, a lightweight journal for documenting thoughts and experiences in real-time, and a versatile scarf that serves as a blanket, pillow, or style accessory depending on the need. Perhaps surprisingly, I always pack a small collection of favorite teas – having this familiar comfort available regardless of where I am provides a sense of home and routine that helps me stay grounded while exploring new places. The most valuable lesson I've learned is that experiences, not possessions, are the true souvenirs of travel.",
+    coverImage: "/placeholder.svg?height=600&width=800",
+    images: ["/placeholder.svg?height=500&width=700", "/placeholder.svg?height=500&width=700"],
+    imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
+  },
+  {
+    slug: "week-5-solo-travel",
+    title: "What Solo Travel Taught Me About Myself",
+    date: "2025-02-02",
+    category: "Personal Growth",
+    excerpt: "Reflections on how traveling alone has changed my perspective and built confidence.",
+    content:
+      "My first solo trip three years ago was born of necessity rather than choice – plans fell through, but I decided to go anyway. What began as an intimidating prospect quickly transformed into one of the most empowering experiences of my life. This week, I'm reflecting on the profound lessons that solo travel continues to teach me about myself and my place in the world. The most immediate lesson was self-reliance – when you're alone in an unfamiliar place, every decision, from navigating public transportation to choosing where to eat, falls squarely on your shoulders. This responsibility, while occasionally overwhelming, builds a confidence that extends far beyond travel situations. I've also discovered the joy of complete freedom – the ability to follow my curiosity without compromise, changing plans on a whim or spending hours in a museum that captures my interest. Perhaps most valuably, solo travel has taught me to enjoy my own company and thoughts, a skill that serves as a foundation for contentment in all areas of life. There's a special kind of magic in sitting alone at a café in a foreign city, observing local life unfold around you while being completely present in your own experience.",
+    coverImage: "/placeholder.svg?height=600&width=800",
+    images: ["/placeholder.svg?height=500&width=700", "/placeholder.svg?height=500&width=700"],
+    imageCaptions: [
+      "Self-portrait during my first solo adventure",
+      "Journaling at a café in Paris, reflecting on my journey",
+    ],
+  },
+  {
+    slug: "week-6-sustainable-travel",
+    title: "Small Changes for More Sustainable Travel",
+    date: "2025-02-09",
+    category: "Sustainability",
+    excerpt: "Practical ways I'm reducing my environmental impact while still exploring the world.",
+    content:
+      "As awareness of climate change and environmental degradation grows, I've been increasingly conscious of the impact my travel habits have on the planet. This week, I'm sharing the practical changes I've implemented to make my adventures more sustainable without sacrificing the joy of exploration. The most significant shift has been in how I choose destinations and plan itineraries – opting for fewer, longer trips rather than frequent short getaways reduces my carbon footprint from air travel while actually allowing for deeper cultural immersion. I've also embraced slow travel, using trains and buses for regional exploration rather than domestic flights or private cars. These overland journeys, while requiring more time, often become memorable adventures in themselves and reveal landscapes and communities I would have missed from the air. In daily travel habits, I've adopted a zero-waste kit including a reusable water bottle, coffee cup, utensils, and shopping bag – small items that collectively prevent significant plastic waste over the course of a trip. Perhaps most importantly, I've become more intentional about where my travel dollars go, choosing locally-owned accommodations and businesses that demonstrate environmental responsibility and contribute to community wellbeing.",
+    coverImage: "/placeholder.svg?height=600&width=800",
+    images: ["/placeholder.svg?height=500&width=700", "/placeholder.svg?height=500&width=700"],
+    imageCaptions: [
+      "My zero-waste travel essentials packed and ready",
+      "Taking the scenic train instead of flying - worth the extra time",
+    ],
+  },
+]
