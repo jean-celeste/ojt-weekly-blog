@@ -1,3 +1,4 @@
+import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { notFound } from "next/navigation"
@@ -5,6 +6,7 @@ import { blogPosts } from "@/lib/blog-data"
 import { formatDate } from "@/lib/utils"
 import { ArrowLeft, Calendar, Tag } from "lucide-react"
 import { type BlogPost } from "@/lib/types"
+import Gallery from "@/components/Gallery"
 
 interface BlogPostPageProps {
   params: {
@@ -108,10 +110,11 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
           </div>
         </div>
 
-        {/*
-          To insert images at specific points in your content, add markers like [IMAGE_1], [IMAGE_2], etc. in your blog post content string.
-          Images and captions will be inserted at those points.
-        */}
+        {/* Gallery Section */}
+        {post.images && post.images.length > 0 && (
+          <Gallery images={post.images} captions={post.imageCaptions} />
+        )}
+
         {/* Related Posts */}
         <div className="mt-16 pt-8 border-t border-[#e5d9d0]">
           <h3 className="font-serif text-2xl text-center mb-8">You Might Also Enjoy</h3>

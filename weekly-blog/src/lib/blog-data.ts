@@ -23,11 +23,21 @@ export const blogPosts: BlogPost[] = [
       However, just as I was beginning to settle into the Excel dashboard project, I was reassigned to a new project that aligned with another pressing need — the digitization of DOST’s Customer Satisfaction Feedback (CSF) system. It’s a completely different challenge that involves process understanding, user experience, and eventually, system development. To begin our research, we interviewed Ma’am Dyn and Ma’am Che, who shared insights about the current CSF workflow and the pain points they hope to address. This will guide our design and implementation as we work on improving their current feedback collection method.
 
       Overall, this first week has shown me just how dynamic an IT role can be, especially in a government institution like DOST. I’ve learned that being adaptable is just as important as being skilled, and that real growth happens when you step into unfamiliar territory and figure things out as you go. Whether it's working with wires or designing a digital solution, every task contributes to the bigger picture — and I’m excited to keep learning, contributing, and growing in the weeks ahead.`,
-    coverImage: "/placeholder.svg?height=600&width=800",
-    images: ["/placeholder.svg?height=500&width=700", "/placeholder.svg?height=500&width=700"],
+    coverImage: "/images/week1/1740837742333.jpeg",
+    images: [
+      "/images/week1/week1-pic3.jpg",
+      "/images/week1/week1-pic2.jpeg",
+      "/images/week1/week1-pic1.jpg",
+      "/images/week1/1740837742301.jpeg",
+      "/images/week1/1740837742333.jpeg",
+      "/images/week1/1740837742565.jpeg",
+      "/images/week1/IMG20250224083645.jpg",
+      "/images/week1/IMG20250225090618.jpg",
+      "/images/week1/IMG20250225090631.jpg"
+    ],
     imageCaptions: [
       "Sunrise view from my coastal retreat - perfect for water signs",
-      "City lights of Barcelona - ideal for fire signs seeking energy",
+      "City lights of Barcelona - ideal for fire signs seeking energy"
     ],
   },
   {
