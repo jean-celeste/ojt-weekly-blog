@@ -48,7 +48,7 @@ export const blogPosts: BlogPost[] = [
     We also had a couple of important meetings this week. One was a unit meeting and progress update with Ma’am Sheen to check on where we’re at and what’s next. We also met with end users of the CSF system to get their feedback and make sure the system is actually helpful and easy to use for them.
 
     [IMAGE_2]
-    
+
     Lastly, we kicked off frontend development for the ARTA system. We’re using React with Vite and TailwindCSS, which makes things faster and keeps the design consistent. We’ve already started building out the forms and making sure everything works well on different screens.
 
     Overall, Week 2 felt like a big step forward. There’s still a lot to do, but with the plans in place and the frontend underway, we’re definitely gaining momentum. Looking forward to what Week 3 brings!`,
@@ -61,22 +61,48 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "week-3-bucket-list",
-    title: "Travel Bucket List for 2025",
+    title: "Week 3: Finalizing ARTA’s Blueprint and Boosting Team Safety",
     date: "2025-01-19",
     category: "Travel",
-    excerpt: "The top destinations and experiences I'm planning to check off my bucket list this year.",
-    content: `As the new year unfolds, I've been reflecting on the places and experiences that are calling to my soul. Creating a travel bucket list isn't just about ticking off famous landmarks – it's about identifying the experiences that will truly enrich your life and expand your understanding of the world. This week, I'm sharing my personal bucket list for 2025, along with the thoughtful process behind each choice. Topping my list is witnessing the Northern Lights in Iceland, a natural phenomenon that has captivated my imagination since childhood. The ephemeral dance of colors across the Arctic sky represents nature's most spectacular light show, and I plan to experience it from a glass-roofed cabin in the wilderness. Next is immersing myself in the ancient traditions of Kyoto during cherry blossom season, when the city transforms into a pink wonderland and centuries-old customs come alive. I'm also drawn to the untamed wilderness of Patagonia, where I hope to complete the challenging Torres del Paine W Trek, pushing my physical limits while surrounded by some of the most dramatic landscapes on Earth. These destinations aren't random choices – each represents a different facet of what travel means to me: natural wonder, cultural immersion, and personal challenge.`,
+    excerpt: "Week 3 focused on wrapping up ARTA’s ERD, setting up key systems, and keeping the team safe with an earthquake drill.",
+    content: 
+    `Week 3 was all about diving deep into the ARTA system’s design and pushing the project forward. We started by initializing the Entity-Relationship Diagram (ERD) for ARTA, which laid the groundwork for understanding the data structure and how everything connects. This work continued throughout the week, refining and expanding the ERD until we reached finalization—giving us a solid blueprint for the backend.
+
+    [IMAGE_1]
+
+    Along the way, we had a productive project meeting with Ma’am Ma. Theresa Alcantara (Ma’am Tere for short), Assistant Regional Director for Technical Operations. The meeting helped clarify priorities and ensure everyone is aligned moving forward.
+
+    In addition to design, meetings, and safety preparations, we completed important technical tasks such as PC installation to set up the necessary hardware environment for development and testing.
+
+    [IMAGE_2]
+
+    Aside from project work, we also conducted an earthquake drill to promote safety and preparedness within the team.
+
+    Overall, Week 3 was a focused sprint on ARTA’s architecture and infrastructure. With the ERD finalized, systems set up, and safety practiced, we’re well positioned to start deeper development soon.`,
     coverImage: "/placeholder.svg?height=600&width=800",
     images: ["/placeholder.svg?height=500&width=700", "/placeholder.svg?height=500&width=700"],
     imageCaptions: ["My vision board for 2025 travel goals", "Map marking all the destinations on my bucket list"],
   },
   {
     slug: "week-4-packing-essentials",
-    title: "Minimalist Packing: What I Actually Use On Every Trip",
+    title: "Week 4: Frontend Focus, Tech Migration, and Fond Farewells",
     date: "2025-01-26",
     category: "Travel Tips",
-    excerpt: "The essential items that make it into my suitcase every time, no matter the destination.",
-    content: `After years of overpacking and lugging heavy suitcases through airports and train stations, I've finally mastered the art of minimalist packing. This week, I'm sharing the core items that earn their place in my luggage for every single trip, regardless of destination or duration. The foundation of my travel wardrobe is a capsule collection of mix-and-match pieces in neutral colors, allowing for maximum outfit combinations with minimal items. I've found that three tops, two bottoms, one dress, and one light jacket can create enough outfits for a week when chosen thoughtfully. Beyond clothing, I've identified the true essentials that enhance every travel experience: a compact camera that captures better memories than my phone, a lightweight journal for documenting thoughts and experiences in real-time, and a versatile scarf that serves as a blanket, pillow, or style accessory depending on the need. Perhaps surprisingly, I always pack a small collection of favorite teas – having this familiar comfort available regardless of where I am provides a sense of home and routine that helps me stay grounded while exploring new places. The most valuable lesson I've learned is that experiences, not possessions, are the true souvenirs of travel.`,
+    excerpt: "Week 4 brought steady frontend progress, a major tech stack migration to Next.js, and a heartfelt farewell to Sir Vince from the MIS unit.",
+    content: 
+    `Week 4 was a busy and productive week with a strong focus on frontend development, specifically on the user side of the project. We kicked things off with a meeting with Ma’am Sheen to review our progress and plan the upcoming tasks. After that, we dived into coding, steadily building and refining the user interface to make sure it’s smooth, responsive, and easy to navigate. The frontend work continued throughout the week with consistent momentum.
+
+    An interesting highlight was getting a chance to observe a server upgrade in action. Seeing the process firsthand gave us valuable insights into backend maintenance and how infrastructure upgrades can help keep our systems running smoothly and securely.
+
+    [IMAGE_1]
+
+    One of the biggest shifts this week was our tech stack migration. We started moving from our previous setup using React with Vite and Express to Next.js. This change is expected to improve our development workflow and enhance the app’s performance, giving us more flexibility and better tools for building out the frontend.
+
+    [IMAGE_2]
+
+    On a more personal note, we also held a small farewell gathering for Sir Vince, who will be leaving the MIS unit. It was a heartfelt send-off where we celebrated his contributions and wished him the best in his future endeavors.
+
+    All in all, Week 4 was a blend of solid technical progress and meaningful team moments, setting a positive tone for the coming weeks.`,
     coverImage: "/placeholder.svg?height=600&width=800",
     images: ["/placeholder.svg?height=500&width=700", "/placeholder.svg?height=500&width=700"],
     imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
@@ -101,7 +127,8 @@ export const blogPosts: BlogPost[] = [
     date: "2025-02-09",
     category: "Sustainability",
     excerpt: "Practical ways I'm reducing my environmental impact while still exploring the world.",
-    content: `As awareness of climate change and environmental degradation grows, I've been increasingly conscious of the impact my travel habits have on the planet. This week, I'm sharing the practical changes I've implemented to make my adventures more sustainable without sacrificing the joy of exploration. The most significant shift has been in how I choose destinations and plan itineraries – opting for fewer, longer trips rather than frequent short getaways reduces my carbon footprint from air travel while actually allowing for deeper cultural immersion. I've also embraced slow travel, using trains and buses for regional exploration rather than domestic flights or private cars. These overland journeys, while requiring more time, often become memorable adventures in themselves and reveal landscapes and communities I would have missed from the air. In daily travel habits, I've adopted a zero-waste kit including a reusable water bottle, coffee cup, utensils, and shopping bag – small items that collectively prevent significant plastic waste over the course of a trip. Perhaps most importantly, I've become more intentional about where my travel dollars go, choosing locally-owned accommodations and businesses that demonstrate environmental responsibility and contribute to community wellbeing.`,
+    content: 
+    `As awareness of climate change and environmental degradation grows, I've been increasingly conscious of the impact my travel habits have on the planet. This week, I'm sharing the practical changes I've implemented to make my adventures more sustainable without sacrificing the joy of exploration. The most significant shift has been in how I choose destinations and plan itineraries – opting for fewer, longer trips rather than frequent short getaways reduces my carbon footprint from air travel while actually allowing for deeper cultural immersion. I've also embraced slow travel, using trains and buses for regional exploration rather than domestic flights or private cars. These overland journeys, while requiring more time, often become memorable adventures in themselves and reveal landscapes and communities I would have missed from the air. In daily travel habits, I've adopted a zero-waste kit including a reusable water bottle, coffee cup, utensils, and shopping bag – small items that collectively prevent significant plastic waste over the course of a trip. Perhaps most importantly, I've become more intentional about where my travel dollars go, choosing locally-owned accommodations and businesses that demonstrate environmental responsibility and contribute to community wellbeing.`,
     coverImage: "/placeholder.svg?height=600&width=800",
     images: ["/placeholder.svg?height=500&width=700", "/placeholder.svg?height=500&width=700"],
     imageCaptions: [
