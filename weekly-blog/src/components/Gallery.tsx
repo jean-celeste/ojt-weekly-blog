@@ -20,16 +20,16 @@ export default function Gallery({ images, captions = [] }: GalleryProps) {
       <h3 className="font-serif text-xl mb-6 text-center">Gallery</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
         {currentImages.map((img, i) => (
-          <div key={`gallery-img-${startIdx + i}`} className={(startIdx + i) % 2 === 0 ? "polaroid rotate-1" : "polaroid-reverse"}>
+          <div key={`gallery-img-${startIdx + i}`} className={(startIdx + i) % 2 === 0 ? "gallery-polaroid rotate-1" : "gallery-polaroid-reverse"}>
             <Image
               src={img || "/placeholder.svg"}
               alt={`Gallery image ${startIdx + i + 1}`}
               width={400}
               height={300}
-              className="w-full object-cover"
+              className="w-full gallery-image"
             />
             {captions[startIdx + i] && (
-              <p className="text-center text-sm mt-2 text-[#6b6b6b]">{captions[startIdx + i]}</p>
+              <p className="gallery-caption">{captions[startIdx + i]}</p>
             )}
           </div>
         ))}
