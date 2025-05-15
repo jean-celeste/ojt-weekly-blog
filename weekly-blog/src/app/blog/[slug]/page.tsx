@@ -8,19 +8,13 @@ import { ArrowLeft, Calendar, Tag } from "lucide-react"
 import { type BlogPost } from "@/lib/types"
 import Gallery from "@/components/Gallery"
 
-interface BlogPostPageProps {
-  params: {
-    slug: string
-  }
-}
-
 export function generateStaticParams() {
   return blogPosts.map((post: BlogPost) => ({
     slug: post.slug,
   }))
 }
 
-export default function BlogPostPage({ params }: BlogPostPageProps) {
+export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = blogPosts.find((post: BlogPost) => post.slug === params.slug)
 
   if (!post) {

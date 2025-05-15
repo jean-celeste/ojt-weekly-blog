@@ -99,12 +99,12 @@ export const blogPosts: BlogPost[] = [
     Aside from project work, we also conducted an earthquake drill to promote safety and preparedness within the team.
 
     Overall, Week 3 was a focused sprint on ARTA’s architecture and infrastructure. With the ERD finalized, systems set up, and safety practiced, we’re well positioned to start deeper development soon.`,
-    coverImage: "/placeholder.svg?height=600&width=800",
+    coverImage: "/images/week3/IMG20250313150937.jpg",
     images: getImagesForWeek("week3"),
-    imageCaptions: ["Thank you po for visiting!", "GC Update", ""],
+    imageCaptions: ["Meeting w/Ma'am Tere!", "", "#EarthquakeDrill"],
   },
   {
-    slug: "week-4-packing-essentials",
+    slug: "week-4",
     title: "Week 4: Frontend Focus, Tech Migration, and Fond Farewells",
     date: "2025-01-26",
     category: "Travel Tips",
@@ -114,7 +114,7 @@ export const blogPosts: BlogPost[] = [
 
     An interesting highlight was getting a chance to observe a server upgrade in action. Seeing the process firsthand gave us valuable insights into backend maintenance and how infrastructure upgrades can help keep our systems running smoothly and securely.
 
-    [IMAGE_1]
+    [IMAGE_5]
 
     One of the biggest shifts this week was our tech stack migration. We started moving from our previous setup using React with Vite and Express to Next.js. This change is expected to improve our development workflow and enhance the app’s performance, giving us more flexibility and better tools for building out the frontend.
 
@@ -123,37 +123,9 @@ export const blogPosts: BlogPost[] = [
     On a more personal note, we also held a small farewell gathering for Sir Vince, who will be leaving the MIS unit. It was a heartfelt send-off where we celebrated his contributions and wished him the best in his future endeavors.
 
     All in all, Week 4 was a blend of solid technical progress and meaningful team moments, setting a positive tone for the coming weeks.`,
-    coverImage: "/placeholder.svg?height=600&width=800",
+    coverImage: "/images/week4/486670963_1709349266671196_3884478776614334995_n.jpg",
     images: getImagesForWeek("week4"),
     imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
   },
-  {
-    slug: "week-5-solo-travel",
-    title: "What Solo Travel Taught Me About Myself",
-    date: "2025-02-02",
-    category: "Personal Growth",
-    excerpt: "Reflections on how traveling alone has changed my perspective and built confidence.",
-    content: `My first solo trip three years ago was born of necessity rather than choice – plans fell through, but I decided to go anyway. What began as an intimidating prospect quickly transformed into one of the most empowering experiences of my life. This week, I'm reflecting on the profound lessons that solo travel continues to teach me about myself and my place in the world. The most immediate lesson was self-reliance – when you're alone in an unfamiliar place, every decision, from navigating public transportation to choosing where to eat, falls squarely on your shoulders. This responsibility, while occasionally overwhelming, builds a confidence that extends far beyond travel situations. I've also discovered the joy of complete freedom – the ability to follow my curiosity without compromise, changing plans on a whim or spending hours in a museum that captures my interest. Perhaps most valuably, solo travel has taught me to enjoy my own company and thoughts, a skill that serves as a foundation for contentment in all areas of life. There's a special kind of magic in sitting alone at a café in a foreign city, observing local life unfold around you while being completely present in your own experience.`,
-    coverImage: "/placeholder.svg?height=600&width=800",
-    images: getImagesForWeek("week5"),
-    imageCaptions: [
-      "Self-portrait during my first solo adventure",
-      "Journaling at a café in Paris, reflecting on my journey",
-    ],
-  },
-  {
-    slug: "week-6-sustainable-travel",
-    title: "Small Changes for More Sustainable Travel",
-    date: "2025-02-09",
-    category: "Sustainability",
-    excerpt: "Practical ways I'm reducing my environmental impact while still exploring the world.",
-    content: 
-    `As awareness of climate change and environmental degradation grows, I've been increasingly conscious of the impact my travel habits have on the planet. This week, I'm sharing the practical changes I've implemented to make my adventures more sustainable without sacrificing the joy of exploration. The most significant shift has been in how I choose destinations and plan itineraries – opting for fewer, longer trips rather than frequent short getaways reduces my carbon footprint from air travel while actually allowing for deeper cultural immersion. I've also embraced slow travel, using trains and buses for regional exploration rather than domestic flights or private cars. These overland journeys, while requiring more time, often become memorable adventures in themselves and reveal landscapes and communities I would have missed from the air. In daily travel habits, I've adopted a zero-waste kit including a reusable water bottle, coffee cup, utensils, and shopping bag – small items that collectively prevent significant plastic waste over the course of a trip. Perhaps most importantly, I've become more intentional about where my travel dollars go, choosing locally-owned accommodations and businesses that demonstrate environmental responsibility and contribute to community wellbeing.`,
-    coverImage: "/placeholder.svg?height=600&width=800",
-    images: getImagesForWeek("week6"),
-    imageCaptions: [
-      "My zero-waste travel essentials packed and ready",
-      "Taking the scenic train instead of flying - worth the extra time",
-    ],
-  },
+  
 ];
