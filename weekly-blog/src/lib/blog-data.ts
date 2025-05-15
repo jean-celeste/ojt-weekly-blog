@@ -3,25 +3,26 @@ import type { BlogPost } from "./types"
 export const blogPosts: BlogPost[] = [
   {
     slug: "week-1-coastal-adventures",
-    title: "WEEK 1",
-    date: "2025-01-05",
-    category: "Travel",
-    excerpt: "Discover the perfect destinations for your zodiac sign in the coming year.",
-    content: `My internship at the Department of Science and Technology (DOST) officially began this week, and the experience so far has been both eye-opening and exciting. From day one, we were welcomed warmly during the flag ceremony, where all interns were formally introduced to the DOST employees. It was a meaningful moment that set the tone for the weeks ahead — professional, structured, but full of learning opportunities.
+    title: "Week 1: Stepping Into My DOST Internship",
+    date: "2025-03-02",
+    category: "Deployment",
+    excerpt: "First day as a DOST intern",
+    content: 
+      `My internship at the Department of Science and Technology (DOST) officially began this week, and the experience so far has been both eye-opening and exciting. From day one, we were welcomed warmly during the flag ceremony, where all interns were formally introduced to the DOST employees. It was a meaningful moment that set the tone for the weeks ahead — professional, structured, but full of learning opportunities.
 
-Soon after settling in, we got hands-on with real technical work. One of our first tasks was assisting with network-related chores, where we learned and practiced cabling and crimping. It felt good to step away from purely theoretical knowledge and apply what we’ve learned in school to real-world setups — managing cables, preparing lines, and physically working with hardware.
+      Soon after settling in, we got hands-on with real technical work. One of our first tasks was assisting with network-related chores, where we learned and practiced cabling and crimping. It felt good to step away from purely theoretical knowledge and apply what we’ve learned in school to real-world setups — managing cables, preparing lines, and physically working with hardware.
 
-[IMAGE_1]
+      [IMAGE_1]
 
-Midweek, we were divided into groups and assigned various projects. I was initially placed in a team with Steve and Don, and our task was to create a functional dashboard using Microsoft Excel. This required planning out how to present data clearly and effectively — a challenge that involved not just technical skills but also coordination and attention to detail.
+      Midweek, we were divided into groups and assigned various projects. I was initially placed in a team with Steve and Don, and our task was to create a functional dashboard using Microsoft Excel. This required planning out how to present data clearly and effectively — a challenge that involved not just technical skills but also coordination and attention to detail.
 
-Aside from the group task, I was also individually assigned to help with the installation of STARBOOKS. For context, STARBOOKS (Science and Technology Academic and Research-Based Openly Operated KioskS) is one of DOST-STII’s key programs. It provides offline access to thousands of science and technology resources, making it an invaluable tool for students, teachers, and researchers, especially in underserved or remote communities. Being part of the team that deploys such a vital educational tool gave me a deeper appreciation of how tech can directly serve the public good.
+      Aside from the group task, I was also individually assigned to help with the installation of STARBOOKS. For context, STARBOOKS (Science and Technology Academic and Research-Based Openly Operated KioskS) is one of DOST-STII’s key programs. It provides offline access to thousands of science and technology resources, making it an invaluable tool for students, teachers, and researchers, especially in underserved or remote communities. Being part of the team that deploys such a vital educational tool gave me a deeper appreciation of how tech can directly serve the public good.
 
-[IMAGE_2]
+      [IMAGE_2]
 
-However, just as I was beginning to settle into the Excel dashboard project, I was reassigned to a new project that aligned with another pressing need — the digitization of DOST’s Customer Satisfaction Feedback (CSF) system. It’s a completely different challenge that involves process understanding, user experience, and eventually, system development. To begin our research, we interviewed Ma’am Dyn and Ma’am Che, who shared insights about the current CSF workflow and the pain points they hope to address. This will guide our design and implementation as we work on improving their current feedback collection method.
+      However, just as I was beginning to settle into the Excel dashboard project, I was reassigned to a new project that aligned with another pressing need — the digitization of DOST’s Customer Satisfaction Feedback (CSF) system. It’s a completely different challenge that involves process understanding, user experience, and eventually, system development. To begin our research, we interviewed Ma’am Dyn and Ma’am Che, who shared insights about the current CSF workflow and the pain points they hope to address. This will guide our design and implementation as we work on improving their current feedback collection method.
 
-Overall, this first week has shown me just how dynamic an IT role can be, especially in a government institution like DOST. I’ve learned that being adaptable is just as important as being skilled, and that real growth happens when you step into unfamiliar territory and figure things out as you go. Whether it's working with wires or designing a digital solution, every task contributes to the bigger picture — and I’m excited to keep learning, contributing, and growing in the weeks ahead.`,
+      Overall, this first week has shown me just how dynamic an IT role can be, especially in a government institution like DOST. I’ve learned that being adaptable is just as important as being skilled, and that real growth happens when you step into unfamiliar territory and figure things out as you go. Whether it's working with wires or designing a digital solution, every task contributes to the bigger picture — and I’m excited to keep learning, contributing, and growing in the weeks ahead.`,
     coverImage: "/placeholder.svg?height=600&width=800",
     images: ["/placeholder.svg?height=500&width=700", "/placeholder.svg?height=500&width=700"],
     imageCaptions: [
@@ -31,11 +32,26 @@ Overall, this first week has shown me just how dynamic an IT role can be, especi
   },
   {
     slug: "week-2-blogging-journey",
-    title: "The Ultimate Guide to Starting a Successful Travel Blog",
-    date: "2025-01-12",
-    category: "Blogging",
-    excerpt: "Everything you need to know to launch your own travel blog and build an audience.",
-    content: `Starting a travel blog might seem daunting at first, but with the right approach, it can become one of the most rewarding creative outlets. This week, I'm sharing everything I've learned over years of blogging about my adventures around the world. The key to success lies in finding your unique voice and perspective – there are thousands of travel blogs out there, but none with your specific experiences and viewpoint. Begin by defining your niche: will you focus on budget travel, luxury experiences, solo female travel, or perhaps family adventures? Having a clear focus helps attract a dedicated audience who resonates with your content. Next, invest time in learning the technical aspects of blogging, from choosing the right platform to understanding basic SEO principles. While the creative side is important, the technical foundation will ensure your beautiful content actually reaches readers. Don't underestimate the power of high-quality photography – in the travel niche, stunning visuals can be just as important as well-written content. Finally, remember that building a successful blog takes time and consistency. The most successful bloggers are those who continue creating valuable content even when immediate results aren't visible.`,
+    title: "Week 2: Turning Ideas into Action",
+    date: "2025-03-09",
+    category: "Tech",
+    excerpt: "Week 2 turned blueprints into buttons and plans into progress.",
+    content: 
+    `Week 2 was a busy but productive one for the CSF and ARTA projects. We finally wrapped up the PRD (Product Requirements Document), which basically means we’ve nailed down what the system should do and how it should work. Having this finalized gives us a clear path moving forward and helps keep everyone on the same page.
+
+    We also took time to finalize the UI/UX design. After a few rounds of feedback and tweaks, the design is looking a lot cleaner and more user-friendly—especially for both kiosk and mobile use. It’s exciting to see the system take shape visually.
+
+    [IMAGE_1]
+
+    Outside of development, we handled some tech support stuff too. That included troubleshooting PCs and installing the STARBOOKS system, which helps expand access to science and tech resources in the field. It’s great to know the work we do behind the scenes is supporting broader digital services.
+
+    We also had a couple of important meetings this week. One was a unit meeting and progress update with Ma’am Sheen to check on where we’re at and what’s next. We also met with end users of the CSF system to get their feedback and make sure the system is actually helpful and easy to use for them.
+
+    [IMAGE_2]
+    
+    Lastly, we kicked off frontend development for the ARTA system. We’re using React with Vite and TailwindCSS, which makes things faster and keeps the design consistent. We’ve already started building out the forms and making sure everything works well on different screens.
+
+    Overall, Week 2 felt like a big step forward. There’s still a lot to do, but with the plans in place and the frontend underway, we’re definitely gaining momentum. Looking forward to what Week 3 brings!`,
     coverImage: "/placeholder.svg?height=600&width=800",
     images: ["/placeholder.svg?height=500&width=700", "/placeholder.svg?height=500&width=700"],
     imageCaptions: [
