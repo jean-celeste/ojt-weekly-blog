@@ -73,6 +73,45 @@
   @apply bg-white p-3 shadow-md -rotate-1 inline-block;
 }
 
+.gallery-polaroid, .gallery-polaroid-reverse {
+  background: #fff;
+  padding: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transform: rotate(1deg);
+  width: 16rem;
+  height: 25rem;
+  overflow: hidden;
+}
+
+.gallery-polaroid-reverse {
+  transform: rotate(-1deg);
+}
+
+.gallery-image {
+  width: 100%;
+  height: 18rem;
+  object-fit: contain;
+  object-position: top;
+  display: block;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.gallery-caption {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #6b6b6b;
+  margin-top: 0.5rem;
+  background: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+
 .tape {
   position: absolute;
   width: 4rem;
