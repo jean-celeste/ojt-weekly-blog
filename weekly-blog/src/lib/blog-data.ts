@@ -165,12 +165,44 @@ export const blogPosts: BlogPost[] = [
     We observed two non-working holidays this week—Eid’l Fitr and Albay Day—giving us a quick mid-week breather. Despite the shortened schedule and one day of absence, we continued frontend and backend development efforts, keeping the momentum going on both user and admin interfaces.
 
     [IMAGE_1]
-    
+
     We also had another progress meeting with Ma’am Sheen and Sir Je to align on project updates, address any blockers, and set clear goals for the next stretch of development.
 
     Even with the breaks, Week 6 served as a good checkpoint and reminder that consistency and collaboration keep things moving—even during shorter work weeks.`,
     coverImage: "/images/week6/484295244_1400864424407584_6234603289399229254_n.jpg",
     images: getImagesForWeek("week6"),
+    imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
+  },
+  { 
+    slug: "week-7",
+    title: "Week 7: Coding Steady and Packing Ready for Kapihan sa Bicol",
+    date: "2025-01-26",
+    category: "Meetings",
+    excerpt: "From coding to packing merch bags for Kapihan sa Bicol, Week 7 blended tech and teamwork despite a midweek holiday break.",
+    content: 
+    `Week 7 continued with steady development progress—despite another midweek pause for Araw ng Kagitingan. Even with the holiday, we stayed on track with our coding milestones and kept the momentum going on the frontend.
+
+    Beyond dev work, we were also involved in preparing for next week’s Kapihan sa Bicol. This included packing DOST merchandise, folding brochures, and organizing everything neatly into DOST-branded tote bags. It was a welcome break from screen time and gave us a chance to help out with an event that showcases the agency’s outreach efforts.
+
+    While it was a shorter week, the combination of consistent coding and event prep made it both productive and refreshing.`,
+    coverImage: "/images/week7/1a57d1cb-9d0a-40e1-9251-9ab19d8f7d9d.jpg",
+    images: getImagesForWeek("week7"),
+    imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
+  },
+  { 
+    slug: "week-8",
+    title: "Week 8: Kapihan Conversations, Tech Fixes, and a Holy Week Wind-Down",
+    date: "2025-01-26",
+    category: "Holidays",
+    excerpt: "From supporting a regional science event to troubleshooting PCs, Week 8 was brief but packed with value before the Holy Week break.",
+    content: 
+    `We started the week by assisting in the Kapihan sa Bicol event—an initiative that championed dynamic conversations around science, technology, and innovation in the Bicol Region. It was a meaningful experience to be part of this public-facing activity. I helped with registration, as well as the distribution and collection of Customer Satisfaction Feedback (CSF) forms, contributing to the smooth execution of the event and gaining a better appreciation of DOST's engagement with the community.
+    [IMAGE_3]
+    Back at the office, we shifted gears toward technical support tasks such as Windows installation and PC troubleshooting. It was a great hands-on refresher that balanced the week between fieldwork and practical IT experience.
+
+    Wednesday was observed as a half-day, and we were placed on a work-from-home setup. The remainder of the week—Thursday and Friday—were holidays in observance of Holy Week, giving us all a moment to pause, reflect, and recharge.`,
+    coverImage: "/images/week8/IMG20250415090959.jpg",
+    images: getImagesForWeek("week8"),
     imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
   },
 ];
