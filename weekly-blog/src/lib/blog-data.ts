@@ -210,7 +210,7 @@ export const blogPosts: BlogPost[] = [
     title: "Week 9: Dev Work, Event Prep, and a Splash of Creativity",
     date: "2025-01-26",
     category: "Holidays",
-    excerpt: "From supporting a regional science event to troubleshooting PCs, Week 8 was brief but packed with value before the Holy Week break.",
+    excerpt: "From helping prapter for a national science event to troubleshooting PCs, Week 8 was brief but packed with value before the Holy Week break.",
     content: 
     `Week 9 blended development work with a mix of creative and community-oriented experiences that kept the energy up.
 
@@ -232,21 +232,22 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "week-10",
-    title: "Week 10: Dev Work, Event Prep, and a Splash of Creativity",
+    title: "Week 10: Innovation Summit Highlights and Tech Duties in Motion",
     date: "2025-01-26",
     category: "Holidays",
-    excerpt: "From supporting a regional science event to troubleshooting PCs, Week 8 was brief but packed with value before the Holy Week break.",
+    excerpt: "From livestreaming and photography to hands-on troubleshooting, Week 10 was fueled by innovation and wrapped with steady dev progress.",
     content: 
-    `Week 9 blended development work with a mix of creative and community-oriented experiences that kept the energy up.
+    `Week 10 was all about showcasing innovation and stepping up to support one of the biggest events of the season—the Innovation Summit 2025.
 
-    Throughout the week, we continued working on system development while also providing support for STARBOOKS and several DOST events. We helped with printing IDs and event programs for the GAD Training Series and the upcoming Innovation Summit—small but essential tasks that contribute to the overall success of these initiatives.
+    We began the week with final preparations to ensure everything was in place. On April 28–29, the summit was held at Pepperland Hotel, gathering minds and voices from various sectors to celebrate and explore innovation in the region. On the first day, I assisted the Philippine Information Agency with live streaming and operated one of the cameras, helping deliver a smooth broadcast to a wider online audience.
 
-    Midweek, we got to join the GAD Training Series, where I had the opportunity to help capture moments through photography. Sir Guff also took this as a chance to share a quick photography lesson, which gave us helpful tips for taking better photos during events. On top of that, we enjoyed free food during the activity—and again later in the week as we celebrated a birthday in the office!
+    [IMAGE_10]
 
-    We also held a team meeting to prepare for the Innovation Summit, where we discussed coordination, logistics, and our individual roles.
+    On the second day, I continued supporting the live stream and also contributed to photography for documentation. It was a fast-paced, exciting experience to help behind the scenes while learning more about the importance of science and technology in regional growth.
 
-    All in all, Week 9 was a lively combination of development, support work, creative learning, and meaningful team bonding.`,
-    coverImage: "/images/week10/IMG20250415090959.jpg",
+    [IMAGE_5]
+    After the event wrapped up, we returned to office responsibilities. On April 30, I troubleshooted a PC that had no display and helped with data transfer between hard drives. The week concluded with focused development work on May 1 and 2.`,
+    coverImage: "/images/week10/494688415_3926269367589444_8055328318825246955_n.jpg",
     images: getImagesForWeek("week10"),
     imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
   },
