@@ -43,7 +43,7 @@ export default async function BlogPostPage({
           <div className="flex items-center justify-center space-x-4 text-[#6b6b6b]">
             <div className="flex items-center">
               <Calendar className="h-4 w-4 mr-1" />
-              <time dateTime={post.date}>{formatDate(post.date)}</time>
+               <p className="text-[#6b6b6b] text-m">{post.date}</p>
             </div>
             <div className="flex items-center">
               <Tag className="h-4 w-4 mr-1" />

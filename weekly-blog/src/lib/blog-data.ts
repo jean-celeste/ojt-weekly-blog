@@ -74,10 +74,7 @@ export const blogPosts: BlogPost[] = [
     All in all, Week 2 was a productive blend of finalizing plans, early development, and collaborative feedback—setting a strong pace for the project moving forward.`,
     coverImage: "/images/week2/IMG20250306171242.jpg",
     images: getImagesForWeek("week2"),
-    imageCaptions: [
-      "Thank you for visiting po!",
-      "",
-    ],
+    imageCaptions: [],
   },
   {
     slug: "week-3",
@@ -125,7 +122,7 @@ export const blogPosts: BlogPost[] = [
     All in all, Week 4 was a blend of solid technical progress and meaningful team moments, setting a positive tone for the coming weeks.`,
     coverImage: "/images/week4/486670963_1709349266671196_3884478776614334995_n.jpg",
     images: getImagesForWeek("week4"),
-    imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
+    imageCaptions: [],
   },
   {
     slug: "week-5",
@@ -151,7 +148,7 @@ export const blogPosts: BlogPost[] = [
     Overall, Week 5 was a well-rounded mix of development work, hands-on experience, and even a little self-care—closing March with solid progress and renewed energy.`,
     coverImage: "/images/week5/480919906_620972230639136_7809691770265638180_n.jpg",
     images: getImagesForWeek("week5"),
-    imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
+    imageCaptions: [],
   },
   {
     slug: "week-6",
@@ -171,7 +168,7 @@ export const blogPosts: BlogPost[] = [
     Even with the breaks, Week 6 served as a good checkpoint and reminder that consistency and collaboration keep things moving—even during shorter work weeks.`,
     coverImage: "/images/week6/484295244_1400864424407584_6234603289399229254_n.jpg",
     images: getImagesForWeek("week6"),
-    imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
+    imageCaptions: [],
   },
   { 
     slug: "week-7",
@@ -187,7 +184,7 @@ export const blogPosts: BlogPost[] = [
     While it was a shorter week, the combination of consistent coding and event prep made it both productive and refreshing.`,
     coverImage: "/images/week7/1a57d1cb-9d0a-40e1-9251-9ab19d8f7d9d.jpg",
     images: getImagesForWeek("week7"),
-    imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
+    imageCaptions: [],
   },
   { 
     slug: "week-8",
@@ -203,7 +200,7 @@ export const blogPosts: BlogPost[] = [
     Wednesday was observed as a half-day, and we were placed on a work-from-home setup. The remainder of the week—Thursday and Friday—were holidays in observance of Holy Week, giving us all a moment to pause, reflect, and recharge.`,
     coverImage: "/images/week8/IMG20250415090959.jpg",
     images: getImagesForWeek("week8"),
-    imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
+    imageCaptions: [],
   },
   {
     slug: "week-9",
@@ -228,7 +225,7 @@ export const blogPosts: BlogPost[] = [
     All in all, Week 9 was a lively combination of development, support work, creative learning, and meaningful team bonding.`,
     coverImage: "/images/week9/6b34110b-734a-4e4c-bb2a-8cac26b4ebb9.jpg",
     images: getImagesForWeek("week9"),
-    imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
+    imageCaptions: [],
   },
   {
     slug: "week-10",
@@ -249,6 +246,27 @@ export const blogPosts: BlogPost[] = [
     After the event wrapped up, we returned to office responsibilities. On April 30, I troubleshooted a PC that had no display and helped with data transfer between hard drives. The week concluded with focused development work on May 1 and 2.`,
     coverImage: "/images/week10/494688415_3926269367589444_8055328318825246955_n.jpg",
     images: getImagesForWeek("week10"),
-    imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
+    imageCaptions: [],
+  },
+  {
+    slug: "week-11",
+    title: "Week 11: When Linux Saved the Day (And We Took 2nd Place!)",
+    date: "May. 5-9, 2025",
+    category: "Holidays",
+    excerpt: "From livestreaming and photography to hands-on troubleshooting, Week 10 was fueled by innovation and wrapped with steady dev progress.",
+    content: 
+    `Week 11 was definitely a mix of technical bumps, resourcefulness, and a bit of celebration.
+
+    [IMAGE_5]
+    At the start of the week, my personal laptop suddenly gave up on me—turns out the SSD was completely dead. This could’ve slowed me down big time, but thankfully, Sir Je lent me a system unit running Linux (which I wasn’t super sanay with, haha). I used that setup to continue working on the CSF ARTA system development.
+
+    [IMAGE_7]
+    Midweek, we had a nice change of pace. We attended the Bicol University Best University Thesis event (College of Science-wide), where we proudly took home 2nd Best Paper in our category! It was such a great moment to share with our team and fellow students.
+
+    [IMAGE_6]
+    By May 8, my laptop was still waiting for the replacement part, so I continued development using the PC lent to me. On May 9, my new SSD finally arrived. With the help of Sir Je, we replaced the old one, installed a fresh OS, and I was finally back to my usual setup—smooth and ready to code.`,
+    coverImage: "/images/week11/IMG20250507091726.jpg",
+    images: getImagesForWeek("week11"),
+    imageCaptions: [],
   },
 ];

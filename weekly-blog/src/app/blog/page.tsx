@@ -8,7 +8,7 @@ export default function BlogPage() {
         <div className="text-center mb-12">
           <h1 className="font-serif text-4xl md:text-5xl text-[#3c3c3c] mb-4">Weekly Journal Entries</h1>
           <p className="text-[#6b6b6b] max-w-2xl mx-auto">
-            Browse through all my weekly adventures, thoughts, and experiences captured in scrapbook style
+            Browse through all my weekly adventures, thoughts, and experiences during my OJT at DOST V
           </p>
         </div>
 
