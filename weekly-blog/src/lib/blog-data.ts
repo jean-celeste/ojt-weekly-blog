@@ -107,7 +107,7 @@ export const blogPosts: BlogPost[] = [
     slug: "week-4",
     title: "Week 4: Frontend Focus, Tech Migration, and Fond Farewells",
     date: "2025-01-26",
-    category: "Travel Tips",
+    category: "Dev",
     excerpt: "Week 4 brought steady frontend progress, a major tech stack migration to Next.js, and a heartfelt farewell to Sir Vince from the MIS unit.",
     content: 
     `Week 4 was a busy and productive week with a strong focus on frontend development, specifically on the user side of the project. We kicked things off with a meeting with Ma’am Sheen to review our progress and plan the upcoming tasks. After that, we dived into coding, steadily building and refining the user interface to make sure it’s smooth, responsive, and easy to navigate. The frontend work continued throughout the week with consistent momentum.
@@ -127,5 +127,30 @@ export const blogPosts: BlogPost[] = [
     images: getImagesForWeek("week4"),
     imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
   },
-  
+  {
+    slug: "week-5",
+    title: "Week 5: Code, Care, and Closing March with Good Vibes",
+    date: "2025-01-26",
+    category: "End-of-March",
+    excerpt: "From frontend builds to free massages, Week 5 balanced dev work with well-deserved Women’s Month treats.",
+    content: 
+    `As March came to a close, Week 5 brought a productive mix of backend setup, frontend progress, and a few hands-on activities that added some variety to our daily tasks.
+
+    We kicked off the week by revising the ERD and setting up the database structure, ensuring everything was aligned with the system’s updated requirements. On the frontend side, we continued refining the user interface while also initializing and building out the admin side. Watching both views come together made the system feel much more complete.
+
+    This week, we also began installing STARBOOKS. However, the installation was delayed due to time constraints—the process takes around three hours, and with a 3PM start time on the first day and our 6PM end-of-day schedule, we had to postpone and continue it the following day.
+    
+    [IMAGE_10]
+    
+    Outside of our technical responsibilities, we also had the chance to work on our intern IDs. We observed how Sir Guff took our ID photos and assisted with cutting and laminating—simple but satisfying tasks that gave us a nice break from our screens.
+
+    And since this week also marked the end of Women’s Month, DOST treated everyone with some well-deserved pampering: free massage, nail care, haircuts, and food. We were lucky enough to experience and enjoy these perks too—a small but meaningful celebration that brought good vibes to the workplace.
+    
+    [IMAGE_3]
+
+    Overall, Week 5 was a well-rounded mix of development work, hands-on experience, and even a little self-care—closing March with solid progress and renewed energy.`,
+    coverImage: "/images/week5/480919906_620972230639136_7809691770265638180_n.jpg",
+    images: getImagesForWeek("week5"),
+    imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
+  },
 ];
