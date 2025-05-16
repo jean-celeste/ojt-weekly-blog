@@ -8,7 +8,7 @@ export function Header() {
     <header className="bg-[#faf7f5] border-b border-[#efe8e2] sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="font-script text-3xl text-[#c9a992]">
-          My Journal
+          Jean C.
         </Link>
 
         <nav className="hidden md:flex items-center space-x-8">
@@ -21,9 +21,9 @@ export function Header() {
           <Link href="/blog" className="text-[#3c3c3c] hover:text-[#c9a992] transition-colors">
             All Entries
           </Link>
-          <Link href="/contact" className="text-[#3c3c3c] hover:text-[#c9a992] transition-colors">
+          {/* <Link href="/contact" className="text-[#3c3c3c] hover:text-[#c9a992] transition-colors">
             Contact
-          </Link>
+          </Link> */}
         </nav>
         
         <Sheet>
