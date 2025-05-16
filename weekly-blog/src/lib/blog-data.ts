@@ -14,7 +14,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "week-1",
     title: "Week 1: Stepping Into My DOST Internship",
-    date: "2025-03-02",
+    date: "Feb. 24-28, 2025",
     category: "Deployment",
     excerpt: "First day as a DOST intern",
     content: 
@@ -49,7 +49,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "week-2",
     title: "Week 2: Turning Ideas into Action",
-    date: "2025-03-09",
+    date: "Mar. 3-7, 2025",
     category: "Tech",
     excerpt: "Week 2 turned blueprints into buttons and plans into progress.",
     content: 
@@ -82,7 +82,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "week-3",
     title: "Week 3: Finalizing ARTA’s Blueprint and Boosting Team Safety",
-    date: "2025-01-19",
+    date: "Mar. 10-14, 2025",
     category: "OJT",
     excerpt: "Week 3 focused on wrapping up ARTA’s ERD, setting up key systems, and keeping the team safe with an earthquake drill.",
     content: 
@@ -106,7 +106,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "week-4",
     title: "Week 4: Frontend Focus, Tech Migration, and Fond Farewells",
-    date: "2025-01-26",
+    date: "Mar. 17-21, 2025",
     category: "Dev",
     excerpt: "Week 4 brought steady frontend progress, a major tech stack migration to Next.js, and a heartfelt farewell to Sir Vince from the MIS unit.",
     content: 
@@ -130,7 +130,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "week-5",
     title: "Week 5: Code, Care, and Closing March with Good Vibes",
-    date: "2025-01-26",
+    date: "Mar. 24-28, 2025",
     category: "End-of-March",
     excerpt: "From frontend builds to free massages, Week 5 balanced dev work with well-deserved Women’s Month treats.",
     content: 
@@ -156,7 +156,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "week-6",
     title: "Week 6: Short but Sweet—Holidays, Code, and Project Syncs",
-    date: "2025-01-26",
+    date: "Mar. 31-Apr. 4, 2025",
     category: "Meetings",
     excerpt: "Eid’l Fitr and Albay Day trimmed the workweek, but we still pushed dev forward and synced up with Ma’am Sheen and Sir Je to keep everything on track.",
     content: 
@@ -176,7 +176,7 @@ export const blogPosts: BlogPost[] = [
   { 
     slug: "week-7",
     title: "Week 7: Coding Steady and Packing Ready for Kapihan sa Bicol",
-    date: "2025-01-26",
+    date: "Apr. 7-11, 2025",
     category: "Meetings",
     excerpt: "From coding to packing merch bags for Kapihan sa Bicol, Week 7 blended tech and teamwork despite a midweek holiday break.",
     content: 
@@ -192,7 +192,7 @@ export const blogPosts: BlogPost[] = [
   { 
     slug: "week-8",
     title: "Week 8: Kapihan Conversations, Tech Fixes, and a Holy Week Wind-Down",
-    date: "2025-01-26",
+    date: "Apr. 14-18, 2025",
     category: "Holidays",
     excerpt: "From supporting a regional science event to troubleshooting PCs, Week 8 was brief but packed with value before the Holy Week break.",
     content: 
@@ -208,7 +208,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "week-9",
     title: "Week 9: Dev Work, Event Prep, and a Splash of Creativity",
-    date: "2025-01-26",
+    date: "Apr. 21-25, 2025",
     category: "Holidays",
     excerpt: "From helping prapter for a national science event to troubleshooting PCs, Week 8 was brief but packed with value before the Holy Week break.",
     content: 
@@ -233,7 +233,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "week-10",
     title: "Week 10: Innovation Summit Highlights and Tech Duties in Motion",
-    date: "2025-01-26",
+    date: "Apr. 27-May 2, 2025",
     category: "Holidays",
     excerpt: "From livestreaming and photography to hands-on troubleshooting, Week 10 was fueled by innovation and wrapped with steady dev progress.",
     content: 
