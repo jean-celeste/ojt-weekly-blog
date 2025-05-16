@@ -114,11 +114,11 @@ export const blogPosts: BlogPost[] = [
 
     An interesting highlight was getting a chance to observe a server upgrade in action. Seeing the process firsthand gave us valuable insights into backend maintenance and how infrastructure upgrades can help keep our systems running smoothly and securely.
 
-    [IMAGE_6]
+    [IMAGE_5]
 
     One of the biggest shifts this week was our tech stack migration. We started moving from our previous setup using React with Vite and Express to Next.js. This change is expected to improve our development workflow and enhance the app’s performance, giving us more flexibility and better tools for building out the frontend.
 
-    [IMAGE_3]
+    [IMAGE_2]
 
     On a more personal note, we also held a small farewell gathering for Sir Vince, who will be leaving the MIS unit. It was a heartfelt send-off where we celebrated his contributions and wished him the best in his future endeavors.
 
@@ -151,6 +151,26 @@ export const blogPosts: BlogPost[] = [
     Overall, Week 5 was a well-rounded mix of development work, hands-on experience, and even a little self-care—closing March with solid progress and renewed energy.`,
     coverImage: "/images/week5/480919906_620972230639136_7809691770265638180_n.jpg",
     images: getImagesForWeek("week5"),
+    imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
+  },
+  {
+    slug: "week-6",
+    title: "Week 6: Short but Sweet—Holidays, Code, and Project Syncs",
+    date: "2025-01-26",
+    category: "Meetings",
+    excerpt: "Eid’l Fitr and Albay Day trimmed the workweek, but we still pushed dev forward and synced up with Ma’am Sheen and Sir Je to keep everything on track.",
+    content: 
+    `Week 6 may have been a bit shorter due to holidays, but we still made steady progress on development and kept communication flowing with the team.
+
+    We observed two non-working holidays this week—Eid’l Fitr and Albay Day—giving us a quick mid-week breather. Despite the shortened schedule and one day of absence, we continued frontend and backend development efforts, keeping the momentum going on both user and admin interfaces.
+
+    [IMAGE_1]
+    
+    We also had another progress meeting with Ma’am Sheen and Sir Je to align on project updates, address any blockers, and set clear goals for the next stretch of development.
+
+    Even with the breaks, Week 6 served as a good checkpoint and reminder that consistency and collaboration keep things moving—even during shorter work weeks.`,
+    coverImage: "/images/week6/484295244_1400864424407584_6234603289399229254_n.jpg",
+    images: getImagesForWeek("week6"),
     imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
   },
 ];
