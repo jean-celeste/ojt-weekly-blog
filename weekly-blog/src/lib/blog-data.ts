@@ -205,4 +205,49 @@ export const blogPosts: BlogPost[] = [
     images: getImagesForWeek("week8"),
     imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
   },
+  {
+    slug: "week-9",
+    title: "Week 9: Dev Work, Event Prep, and a Splash of Creativity",
+    date: "2025-01-26",
+    category: "Holidays",
+    excerpt: "From supporting a regional science event to troubleshooting PCs, Week 8 was brief but packed with value before the Holy Week break.",
+    content: 
+    `Week 9 blended development work with a mix of creative and community-oriented experiences that kept the energy up.
+
+    Throughout the week, we continued working on system development while also providing support for STARBOOKS and several DOST events. We helped with printing IDs and event programs for the GAD Training Series and the upcoming Innovation Summit—small but essential tasks that contribute to the overall success of these initiatives.
+
+    [IMAGE_4]
+
+    Midweek, we got to join the GAD Training Series, where I had the opportunity to help capture moments through photography. Sir Guff also took this as a chance to share a quick photography lesson, which gave us helpful tips for taking better photos during events. On top of that, we enjoyed free food during the activity—and again later in the week as we celebrated a birthday in the office!
+
+    [IMAGE_15]
+    We also held a team meeting to prepare for the Innovation Summit, where we discussed coordination, logistics, and our individual roles.
+    
+    [IMAGE_11]
+    
+    All in all, Week 9 was a lively combination of development, support work, creative learning, and meaningful team bonding.`,
+    coverImage: "/images/week9/6b34110b-734a-4e4c-bb2a-8cac26b4ebb9.jpg",
+    images: getImagesForWeek("week9"),
+    imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
+  },
+  {
+    slug: "week-10",
+    title: "Week 10: Dev Work, Event Prep, and a Splash of Creativity",
+    date: "2025-01-26",
+    category: "Holidays",
+    excerpt: "From supporting a regional science event to troubleshooting PCs, Week 8 was brief but packed with value before the Holy Week break.",
+    content: 
+    `Week 9 blended development work with a mix of creative and community-oriented experiences that kept the energy up.
+
+    Throughout the week, we continued working on system development while also providing support for STARBOOKS and several DOST events. We helped with printing IDs and event programs for the GAD Training Series and the upcoming Innovation Summit—small but essential tasks that contribute to the overall success of these initiatives.
+
+    Midweek, we got to join the GAD Training Series, where I had the opportunity to help capture moments through photography. Sir Guff also took this as a chance to share a quick photography lesson, which gave us helpful tips for taking better photos during events. On top of that, we enjoyed free food during the activity—and again later in the week as we celebrated a birthday in the office!
+
+    We also held a team meeting to prepare for the Innovation Summit, where we discussed coordination, logistics, and our individual roles.
+
+    All in all, Week 9 was a lively combination of development, support work, creative learning, and meaningful team bonding.`,
+    coverImage: "/images/week10/IMG20250415090959.jpg",
+    images: getImagesForWeek("week10"),
+    imageCaptions: ["My perfectly packed suitcase before departure", "Essential items laid out before packing"],
+  },
 ];
