@@ -89,7 +89,7 @@ export const blogPosts: BlogPost[] = [
 
     Along the way, we had a productive project meeting with Ma’am Ma. Theresa Alcantara (Ma’am Tere for short), Assistant Regional Director for Technical Operations. The meeting helped clarify priorities and ensure everyone is aligned moving forward.
 
-    In addition to design, meetings, and safety preparations, we completed important technical tasks such as PC installation to set up the necessary hardware environment for development and testing.
+    In addition to design, meetings, and safety preparations, we completed important technical tasks such as PC installation to set up the necessary hardware environment for office use.
 
     [IMAGE_2]
 
@@ -267,6 +267,27 @@ export const blogPosts: BlogPost[] = [
     By May 8, my laptop was still waiting for the replacement part, so I continued development using the PC lent to me. On May 9, my new SSD finally arrived. With the help of Sir Je, we replaced the old one, installed a fresh OS, and I was finally back to my usual setup—smooth and ready to code.`,
     coverImage: "/images/week11/IMG20250507091726.jpg",
     images: getImagesForWeek("week11"),
+    imageCaptions: [],
+  },
+  {
+    slug: "week-12",
+    title: "Week 12: From Ballots to Backends — Nearing the Finish Line",
+    date: "May. 12-16, 2025",
+    category: "Holidays",
+    excerpt: "This week balanced civic duty and major progress—despite a late start, the system neared completion, got hosted on the server, and STARBOOKS was installed for a local school.",
+    content: 
+    `This week was a blend of civic duties, development work, and wrapping up key milestones. With Monday set as the national and local election day, I had to travel back to Legazpi later than expected due to long lines at my voting precinct, which caused me to miss a day of work.
+    
+    Once back, I resumed development on the CSF/ARTA system. Sir je also began hosting the project on the server, although the system is not yet finish, the hosted system will be updated automatically whenever I push new changes in GitHub.
+
+    I also submitted my entry for Sir Guff's photography activity, which was a fun break from coding. Later in the week, we had a meeting led by Ma'am Sheen. It was a certification seminar tackling what certification we can possibly get. I also fave presentation about my system which is about 95% complete
+
+    To end the week, I installed STARBOOKS in the office for San Felipe National High School
+
+    Overall, it was a meaningfull and productive week. I was able to take part in the elections, continue improving my project, and help out with other tasks in the office.
+    `,
+    coverImage: "/images/week12/IMG20250516144543.jpg",
+    images: getImagesForWeek("week12"),
     imageCaptions: [],
   },
 ];
