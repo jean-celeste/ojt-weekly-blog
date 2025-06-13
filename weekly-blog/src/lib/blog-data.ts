@@ -290,4 +290,46 @@ export const blogPosts: BlogPost[] = [
     images: getImagesForWeek("week12"),
     imageCaptions: [],
   },
+  {
+    slug: "week-13",
+    title: "Week 13: Printers, Pixels, and Production — A Well-Rounded Tech Week",
+    date: "May. 19-23, 2025",
+    category: "Holidays",
+    excerpt: "A productive week blending printer troubleshooting, graphic design learning, and hitting 98% completion on our CSF/ARTA system with live deployment.",
+    content: 
+    `Week 13 was a great mix of technical work and skill building. Clyde and I started by troubleshooting printers across different units, which was a nice change from our usual development work and gave us hands-on hardware experience.
+    
+    [IMAGE_3]
+    Mid-week, Sir Da taught us graphic design basics covering color theory and typography. It was refreshing to learn something creative that will actually help with our UI development projects down the road.
+    
+    The big win was getting our CSF/ARTA system to 98% completion and live on the server. The automatic GitHub integration means updates deploy seamlessly now, which feels amazing to see in action.
+   
+    [IMAGE_9]
+    We ended the week helping set up the flag lowering ceremony, a simple but meaningful way to contribute beyond our technical roles.
+    
+    Week 13 really showed how varied tech work can be - from hardware troubleshooting and creative learning to deployment milestones and community involvement. Each experience added something valuable to our toolkit.`,
+    coverImage: "/images/week13/IMG20250519130958.jpg",
+    images: getImagesForWeek("week13"),
+    imageCaptions: [],
+  },
+  {
+    slug: "week-14",
+    title: "Week 14: A Quiet Push Toward Completion",
+    date: "May. 19-23, 2025",
+    category: "Holidays",
+    excerpt: "In my final week of completing the 486 OJT hours, I made steady progress on the CSF/ARTA system and connected with fellow OJTs during a quieter, reflective week.",
+    content: 
+    `Week 14 had a quieter, more focused rhythm as the regular employees participated in a DOST V team building event. All the OJTs from different units gathered in the conference room, creating an interesting opportunity to connect with fellow trainees and share experiences across departments. It was fascinating to hear about the diverse projects and challenges everyone was tackling in their respective units.
+
+    [IMAGE_2]
+    Mid-week brought a fun break with our class pictorial session. After weeks of intense development work, it was nice to pause and capture memories with classmates. These moments remind you how quickly time passes during an internship and how much we've all grown since starting.
+
+    On the development front, I pushed the CSF/ARTA system even closer to completion, reaching 99% with continued server hosting. The system is running smoothly, and seeing it so near the finish line feels incredibly satisfying. Each percentage point closer to 100% represents countless hours of coding, testing, and refinement.
+
+    [IMAGE_5]
+    This week also marks a significant milestone—the completion of my 486 OJT hours. It’s hard to believe how much I’ve learned, built, and experienced in this time. Week 14 may have been quieter than usual, but it provided valuable networking time with other OJTs and steady progress on our main project. Sometimes these calmer weeks are exactly what you need to recharge and prepare for the final push—not just toward project completion, but toward the next chapter ahead.`,
+    coverImage: "/images/week14/IMG20250528142305.jpg",
+    images: getImagesForWeek("week14"),
+    imageCaptions: [],
+  },
 ];
